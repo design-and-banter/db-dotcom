@@ -1,12 +1,22 @@
 #opening {
   background: @primary;
+  border-bottom: solid 0.25em @primary-tint;
+  padding: 4em 0;
 
-  h1 {
-    
+  h1 {  
+    margin: 1em 0;
   }
 
   h2 {
-    font-size: 1.5em;
-    color: @primary-tint;
+    font-size: 1.25em;
+    color: @primary-dark;
+    max-width: 32em;
+    margin: 0 auto;
+    line-height: 1.5;
+    text-align: center;
+    a {
+      color: @primary-light;
+      font-weight: 200;
+    }
   }
 }

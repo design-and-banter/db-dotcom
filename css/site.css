@@ -153,15 +153,29 @@ body {
 }
 .logo {
   text-align: center;
-  font-size: 2.75em;
+  font-size: 3em;
+  letter-spacing: -1px;
   font-weight: 700;
   color: #ffffff;
   -webkit-font-smoothing: antialiased;
 }
 #opening {
   background: #14b694;
+  border-bottom: solid 0.25em #11a284;
+  padding: 4em 0;
+}
+#opening h1 {
+  margin: 1em 0;
 }
 #opening h2 {
-  font-size: 1.5em;
-  color: #11a284;
+  font-size: 1.25em;
+  color: #166555;
+  max-width: 32em;
+  margin: 0 auto;
+  line-height: 1.5;
+  text-align: center;
+}
+#opening h2 a {
+  color: #a6ecdd;
+  font-weight: 200;
 }
