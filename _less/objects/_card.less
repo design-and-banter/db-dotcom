@@ -1,11 +1,12 @@
 .speaker {
 
-  background: #CF3904;
+  background: #E0875F;
   width: 18em;
   text-align: center;
   .border-radius (@radius: 8px);
 
   h1, h2 {
+    font-size: 24px;
     font-weight: 700;
   }
 
@@ -24,6 +25,7 @@
 
   .card-top {
     color: white;
+    border-bottom: 3px solid #CF3904;
 
   h1 {
     margin: 20px 0;
@@ -36,11 +38,16 @@
 
   .card-bottom {
     background: white;
-    padding-top: 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid whitesmoke;
+
+    h2 {
+      margin-bottom: 20px;
+    }
   }
 
   .card-btns {
-    padding: 20px;
+    padding: 10px;
     background: white;
     .border-radius (@radius: 0 0 8px 8px);
   }

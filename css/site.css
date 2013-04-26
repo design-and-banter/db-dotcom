@@ -152,7 +152,7 @@ body {
   margin: 0 auto;
 }
 .speaker {
-  background: #CF3904;
+  background: #E0875F;
   width: 18em;
   text-align: center;
   -webkit-border-radius: 8px;
@@ -164,6 +164,7 @@ body {
 }
 .speaker h1,
 .speaker h2 {
+  font-size: 24px;
   font-weight: 700;
 }
 .speaker .head {
@@ -184,6 +185,7 @@ body {
 }
 .speaker .card-top {
   color: white;
+  border-bottom: 3px solid #CF3904;
 }
 .speaker .card-top h1 {
   margin: 20px 0;
@@ -193,10 +195,14 @@ body {
 }
 .speaker .card-bottom {
   background: white;
-  padding-top: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid whitesmoke;
+}
+.speaker .card-bottom h2 {
+  margin-bottom: 20px;
 }
 .speaker .card-btns {
-  padding: 20px;
+  padding: 10px;
   background: white;
   -webkit-border-radius: 0 0 8px 8px;
   -moz-border-radius: 0 0 8px 8px;
