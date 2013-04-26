@@ -147,6 +147,10 @@ body {
 #next-event {
   background: #f5f5f5;
 }
+.event {
+  max-width: 60em;
+  margin: 0 auto;
+}
 .speaker {
   margin: 100px;
   background: #CF3904;
