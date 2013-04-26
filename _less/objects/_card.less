@@ -6,6 +6,10 @@
   text-align: center;
   .border-radius (@radius: 8px);
 
+  h1, h2 {
+    font-weight: 700;
+  }
+
   .head {
     overflow: hidden;
     .border-radius (@radius: 120px);
@@ -22,16 +26,22 @@
   .card-top {
     color: white;
 
-    h1 {
-      
-    }
+  h1 {
+    margin: 20px 0;
+  }
+
+  p {
+    margin: 20px 0;
+  }
   }
 
   .card-bottom {
     background: white;
+    padding-top: 10px;
   }
 
   .card-btns {
+    padding: 20px;
     background: white;
     .border-radius (@radius: 0 0 8px 8px);
   }

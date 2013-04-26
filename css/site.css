@@ -163,6 +163,10 @@ body {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
+.speaker h1,
+.speaker h2 {
+  font-weight: 700;
+}
 .speaker .head {
   overflow: hidden;
   -webkit-border-radius: 120px;
@@ -182,10 +186,18 @@ body {
 .speaker .card-top {
   color: white;
 }
+.speaker .card-top h1 {
+  margin: 20px 0;
+}
+.speaker .card-top p {
+  margin: 20px 0;
+}
 .speaker .card-bottom {
   background: white;
+  padding-top: 10px;
 }
 .speaker .card-btns {
+  padding: 20px;
   background: white;
   -webkit-border-radius: 0 0 8px 8px;
   -moz-border-radius: 0 0 8px 8px;
