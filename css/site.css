@@ -152,6 +152,12 @@ body {
   width: 20em;
   text-align: center;
 }
+.speaker .card-top {
+  background: red;
+}
+.speaker .card-bottom {
+  background: white;
+}
 .logo {
   text-align: center;
   font-size: 3em;
