@@ -142,6 +142,7 @@ a {
 }
 body {
   font-family: "jaf-facitweb", sans-serif;
+  background: #192926;
 }
 #next-event {
   background: #f5f5f5;
@@ -170,7 +171,7 @@ body {
 #opening h2 {
   font-size: 1.25em;
   color: #166555;
-  max-width: 32em;
+  max-width: 30em;
   margin: 0 auto;
   line-height: 1.5;
   text-align: center;
@@ -178,4 +179,18 @@ body {
 #opening h2 a {
   color: #a6ecdd;
   font-weight: 200;
+  border-bottom: 2px dotted #a6ecdd;
+}
+#credits {
+  background: #192926;
+  padding: 4em 0;
+}
+#credits p {
+  color: #616e6b;
+  text-align: center;
+  font-size: 0.875em;
+}
+#credits a {
+  color: #11a284;
+  border-bottom: 2px dotted #11a284;
 }
