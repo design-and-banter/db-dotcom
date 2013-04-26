@@ -148,15 +148,47 @@ body {
   background: #f5f5f5;
 }
 .speaker {
-  background: white;
-  width: 20em;
+  margin: 100px;
+  background: #CF3904;
+  width: 18em;
   text-align: center;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.speaker .head {
+  overflow: hidden;
+  -webkit-border-radius: 120px;
+  -moz-border-radius: 120px;
+  border-radius: 120px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  border: 10px solid white;
+}
+.speaker .head img {
+  display: block;
 }
 .speaker .card-top {
-  background: red;
+  color: white;
 }
 .speaker .card-bottom {
   background: white;
+}
+.speaker .card-btns {
+  background: white;
+  -webkit-border-radius: 0 0 8px 8px;
+  -moz-border-radius: 0 0 8px 8px;
+  border-radius: 0 0 8px 8px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
 .logo {
   text-align: center;

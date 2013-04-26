@@ -1,13 +1,38 @@
 .speaker {
-  background: white;
-  width: 20em;
+
+  margin: 100px;
+  background: #CF3904;
+  width: 18em;
   text-align: center;
+  .border-radius (@radius: 8px);
+
+  .head {
+    overflow: hidden;
+    .border-radius (@radius: 120px);
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border: 10px solid white;
+    
+    img {
+      display: block;
+    }
+  }
 
   .card-top {
-    background: red;
+    color: white;
+
+    h1 {
+      
+    }
   }
 
   .card-bottom {
     background: white;
+  }
+
+  .card-btns {
+    background: white;
+    .border-radius (@radius: 0 0 8px 8px);
   }
 }
