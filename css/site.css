@@ -188,7 +188,9 @@ a {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  padding: 4em 0;
+  padding: 4em 0 0 0;
+  border-top: 5px dotted #ffffff;
+  border-bottom: 5px dotted #ffffff;
 }
 .event h1 {
   text-align: center;
@@ -197,7 +199,7 @@ a {
   font-weight: 600;
   margin: 1em auto;
 }
-.event .descr h2 {
+.event h2 {
   text-align: center;
   font-size: 1.25em;
   font-weight: 200;
@@ -207,11 +209,11 @@ a {
   max-width: 36em;
   margin: 0 auto 1.5em auto;
 }
-.event .descr h2 a {
+.event h2 a {
   border-bottom: 2px dotted #14b694;
   font-weight: 400;
 }
-.event .descr h2:after {
+.event h2:after {
   display: block;
   content: "";
   background: #bbc7c5;
@@ -219,7 +221,7 @@ a {
   width: 5em;
   margin: 2em auto 0 auto;
 }
-.event .descr p {
+.event p {
   font-size: 1em;
   color: #616e6b;
   font-weight: 200;
@@ -228,11 +230,14 @@ a {
   line-height: 1.6;
   text-align: center;
 }
+.event .tickets {
+  padding: 2em 8em;
+}
 .event .speakers {
+  border-top: 5px dotted #fff;
+  border-bottom: 5px dotted #fff;
   background: #bbc7c5;
   padding: 2em 0;
-  max-width: 60em;
-  margin: 4em auto;
   zoom: 1;
 }
 .event .speakers:before,
@@ -254,6 +259,12 @@ a {
   float: left;
   margin: 0 1em;
   width: 12.5em;
+}
+.event .venue {
+  padding: 4em 0 0 0;
+}
+.event .map {
+  margin-top: 4em;
 }
 .speaker {
   -webkit-border-radius: 3px;

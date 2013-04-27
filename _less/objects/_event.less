@@ -8,7 +8,9 @@
   margin: 0 auto;
   max-width: 60em;
   .border-radius(3px);
-  padding: 4em 0;
+  padding: 4em 0 0 0;
+  border-top: 5px dotted #ffffff;
+  border-bottom: 5px dotted #ffffff;
 
   h1 {
     text-align: center;
@@ -17,9 +19,7 @@
     font-weight: 600;
     margin: 1em auto;
   }
-
-  .descr{
-    h2 {
+  h2 {
       text-align: center;
       font-size: 1.25em;
       font-weight: 200;
@@ -51,12 +51,18 @@
       line-height: 1.6;
       text-align: center;
     }
+
+  .descr{
+    
+  }
+  .tickets {
+    padding: 2em 8em;
   }
   .speakers{
+    border-top: 5px dotted #fff;
+    border-bottom: 5px dotted #fff;
     background: @rule;
     padding: 2em 0;
-    max-width: 60em;
-    margin: 4em auto;
     .clearfix;
 
     >.strap {
@@ -76,6 +82,10 @@
     }
 
   }
-  .venue{}
-  .map {}
+  .venue{
+    padding: 4em 0 0 0;
+  }
+  .map {
+    margin-top: 4em;
+  }
 }
