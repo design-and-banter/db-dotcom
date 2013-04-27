@@ -1,8 +1,8 @@
 .speaker {
   .border-radius(@radius: 3px); 
   background: #ffffff; 
-  width: 12.5em;
   padding-top: 1em;
+  overflow: hidden;
 
   p {
     font-size: 0.75em;
@@ -28,7 +28,7 @@
     }
   }
   .bio {
-    border-bottom: 2px dotted @non;
+    border-bottom: 1px solid @non;
     padding: 0em 1em;
     height: 8em;
     h1 {
@@ -39,8 +39,7 @@
   }
   .abstract {
     padding: 1em;
-    border-bottom: 2px dotted @non;
-    height: 4em;
+    height: 4.25em;
     p {
       font-style: italic;
       &:before {
@@ -52,7 +51,8 @@
     }
   }
   .interact {
-    padding: 1em;
+    padding: 1em 1em 1.25em 1em;
+    background: @non;
   }
 
 }
