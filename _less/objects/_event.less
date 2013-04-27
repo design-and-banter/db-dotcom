@@ -1,22 +1,19 @@
 #next-event {
   background: @non;
-  padding: 4em;
+  padding: 4em 0;
 }
 
 .event {
-  max-width: 60em;
+  
   margin: 0 auto;
   background: @non;
 
   h1 {
     text-align: center;
     color: @headline;
-    font-size: 2em;
-    font-weight: 200;
+    font-size: 2.25em;
+    font-weight: 600;
     margin: 1em auto;
-    em {
-      font-weight: 400;
-    }
   }
 
   .descr{
@@ -28,7 +25,11 @@
       color: @text;
       line-height: 1.4;
       max-width: 36em;
-      margin: 0 auto 1em auto;
+      margin: 0 auto 1.5em auto;
+      a {
+        border-bottom: 2px dotted @primary;
+        font-weight: 400;
+      }
     }
 
     p {
@@ -37,22 +38,25 @@
       font-weight: 200;
       margin: 0 auto 1em auto;
       max-width: 43em;
-      line-height: 1.5;
+      line-height: 1.6;
       text-align: center;
     }
   }
   .speakers{
+    max-width: 60em;
+    margin: 4em auto;
     >.strap {
       margin-bottom: 2em;
     }
-    padding: 2em 0;
     .clearfix;
-    margin-left: -1em;
-    
+    ul {
+      padding: 0 1em;
+    }
     li {
       float: left;
-      margin:0 1em;
+      margin: 0 1em;
     }
   }
   .venue{}
+  .map {}
 }
