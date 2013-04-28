@@ -1,7 +1,7 @@
 #opening {
   background: url(http://a.tiles.mapbox.com/v3/orourkedesign.map-bhjxncae/-0.1326999999999988,51.518499999999975,15/1000x600.png) top center @primary;
   border-bottom: solid 0.25em @primary-tint;
-  padding: 4em 0;
+  padding: 4em 0 4em 0;
 
   h1 {  
     margin: 1em 0;
@@ -14,10 +14,18 @@
     margin: 0 auto;
     line-height: 1.5;
     text-align: center;
-    a {
-      color: @primary-light;
-      font-weight: 200;
-      border-bottom: 2px dotted @primary-light;
-    }
+  
+  }
+  a {
+    border: 0;
+    background: @non;
+    color: @primary-tint;
+    font-weight: 600;
+    .box-shadow(0px 0.35em 0px 0px @rule);
+    cursor: pointer;
+    width: 20em;
+    margin: 2em  auto 0 auto;
+    font-size: 1em;
+  
   }
 }

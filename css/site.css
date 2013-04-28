@@ -176,7 +176,7 @@ a {
 }
 #next-event {
   background: #f5f5f5;
-  padding: 4em 0;
+  padding: 4em 0 0 0;
 }
 .event {
   background: #fff;
@@ -195,7 +195,7 @@ a {
 .event h1 {
   text-align: center;
   color: #192926;
-  font-size: 2.5em;
+  font-size: 2.75em;
   font-weight: 600;
   margin: 1em auto;
 }
@@ -262,6 +262,9 @@ a {
 }
 .event .venue {
   padding: 4em 0 0 0;
+}
+.event .venue h1 {
+  font-size: 2em;
 }
 .event .map {
   margin-top: 4em;
@@ -342,7 +345,7 @@ a {
 #opening {
   background: url(http://a.tiles.mapbox.com/v3/orourkedesign.map-bhjxncae/-0.1326999999999988,51.518499999999975,15/1000x600.png) top center #14b694;
   border-bottom: solid 0.25em #11a284;
-  padding: 4em 0;
+  padding: 4em 0 4em 0;
 }
 #opening h1 {
   margin: 1em 0;
@@ -355,10 +358,18 @@ a {
   line-height: 1.5;
   text-align: center;
 }
-#opening h2 a {
-  color: #a6ecdd;
-  font-weight: 200;
-  border-bottom: 2px dotted #a6ecdd;
+#opening a {
+  border: 0;
+  background: #f5f5f5;
+  color: #11a284;
+  font-weight: 600;
+  -webkit-box-shadow: 0px 0.35em 0px 0px #bbc7c5;
+  -moz-box-shadow: 0px 0.35em 0px 0px #bbc7c5;
+  box-shadow: 0px 0.35em 0px 0px #bbc7c5;
+  cursor: pointer;
+  width: 20em;
+  margin: 2em  auto 0 auto;
+  font-size: 1em;
 }
 #credits {
   background: #192926;
@@ -372,4 +383,81 @@ a {
 #credits a {
   color: #11a284;
   border-bottom: 2px dotted #11a284;
+}
+#mc_embed_signup {
+  max-width: 40em;
+  margin: 0 auto;
+  padding: 4em 0 3em 0;
+}
+#mc_embed_signup form {
+  zoom: 1;
+}
+#mc_embed_signup form:before,
+#mc_embed_signup form:after {
+  content: "";
+  display: table;
+}
+#mc_embed_signup form:after {
+  clear: both;
+}
+#mc_embed_signup input {
+  border: 0;
+  background: #ffffff;
+  padding: 0.55em  1em;
+  font-family: "jaf-facitweb", sans-serif;
+  font-size: 1em;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  color: #166555;
+  width: 8em;
+  font-weight: 300;
+  -webkit-box-shadow: 0px 0.35em 0px 0px #bbc7c5;
+  -moz-box-shadow: 0px 0.35em 0px 0px #bbc7c5;
+  box-shadow: 0px 0.35em 0px 0px #bbc7c5;
+}
+#mc_embed_signup input::-webkit-input-placeholder {
+  color: #bbc7c5;
+}
+#mc_embed_signup input:active,
+#mc_embed_signup input:focus {
+  outline: none;
+  -webkit-box-shadow: 0px 0.35em 0px 0px #14b694;
+  -moz-box-shadow: 0px 0.35em 0px 0px #14b694;
+  box-shadow: 0px 0.35em 0px 0px #14b694;
+}
+#mc_embed_signup #mc-embedded-subscribe {
+  border: 0;
+  background: #14b694;
+  color: #fff;
+  -webkit-box-shadow: 0px 0.35em 0px 0px #11a284;
+  -moz-box-shadow: 0px 0.35em 0px 0px #11a284;
+  box-shadow: 0px 0.35em 0px 0px #11a284;
+  cursor: pointer;
+}
+#mc_embed_signup #mc-embedded-subscribe:hover {
+  -webkit-box-shadow: 0px 0.35em 0px 0px #166555;
+  -moz-box-shadow: 0px 0.35em 0px 0px #166555;
+  box-shadow: 0px 0.35em 0px 0px #166555;
+}
+#mc_embed_signup .strap {
+  color: #166555;
+}
+#mc_embed_signup .mc-field-group {
+  float: left;
+  margin: 0 0.25em 1em 0.25em;
+}
+#mc_embed_signup .mc-field-group p {
+  display: none;
+  color: #166555;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+#manifesto {
+  background: #f5f5f5;
 }
