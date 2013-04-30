@@ -145,7 +145,7 @@ body {
   background: #192926;
 }
 a {
-  color: #14b694;
+  color: #cf3904;
 }
 .strap {
   display: block;
@@ -157,7 +157,7 @@ a {
   letter-spacing: 1px;
 }
 .btn {
-  background: #14b694;
+  background: #cf3904;
   display: block;
   color: #f5f5f5;
   -webkit-border-radius: 3px;
@@ -170,9 +170,14 @@ a {
   padding: 1em 0;
   font-size: 0.75em;
   font-weight: 400;
-  -webkit-box-shadow: 0px 0.35em 0px 0px #11a284;
-  -moz-box-shadow: 0px 0.35em 0px 0px #11a284;
-  box-shadow: 0px 0.35em 0px 0px #11a284;
+  -webkit-box-shadow: 0px 0.35em 0px 0px #b93203;
+  -moz-box-shadow: 0px 0.35em 0px 0px #b93203;
+  box-shadow: 0px 0.35em 0px 0px #b93203;
+}
+.btn:hover {
+  -webkit-box-shadow: 0px 0.35em 0px 0px #802100;
+  -moz-box-shadow: 0px 0.35em 0px 0px #802100;
+  box-shadow: 0px 0.35em 0px 0px #802100;
 }
 #next-event {
   background: #f5f5f5;
@@ -210,7 +215,7 @@ a {
   margin: 0 auto 1.5em auto;
 }
 .event h2 a {
-  border-bottom: 2px dotted #14b694;
+  border-bottom: 2px dotted #cf3904;
   font-weight: 400;
 }
 .event h2:after {
@@ -359,13 +364,13 @@ a {
   margin: 0 auto 1em auto;
 }
 #opening {
-  background: url(http://a.tiles.mapbox.com/v3/orourkedesign.map-bhjxncae/-0.1326999999999988,51.518499999999975,15/1000x600.png) top center #14b694;
-  border-bottom: solid 0.25em #11a284;
+  background: url(http://a.tiles.mapbox.com/v3/orourkedesign.map-bhjxncae/-0.1326999999999988,51.518499999999975,15/1000x600.png) top center #cf3904;
+  border-bottom: solid 0.25em #b93203;
   padding: 4em 0 7em 0;
 }
 #opening h2 {
   font-size: 1.25em;
-  color: #166555;
+  color: #802100;
   max-width: 30em;
   margin: 0 auto;
   line-height: 1.5;
@@ -373,16 +378,22 @@ a {
 }
 #opening a {
   border: 0;
-  background: #f5f5f5;
-  color: #11a284;
+  background: #ffffff;
+  color: #b93203;
   font-weight: 600;
-  -webkit-box-shadow: 0px 0.35em 0px 0px #bbc7c5;
-  -moz-box-shadow: 0px 0.35em 0px 0px #bbc7c5;
-  box-shadow: 0px 0.35em 0px 0px #bbc7c5;
+  -webkit-box-shadow: 0px 0.35em 0px 0px #b93203;
+  -moz-box-shadow: 0px 0.35em 0px 0px #b93203;
+  box-shadow: 0px 0.35em 0px 0px #b93203;
   cursor: pointer;
   width: 20em;
   margin: 2em  auto 0 auto;
   font-size: 1em;
+  letter-spacing: normal;
+}
+#opening a:hover {
+  -webkit-box-shadow: 0px 0.35em 0px 0px #802100;
+  -moz-box-shadow: 0px 0.35em 0px 0px #802100;
+  box-shadow: 0px 0.35em 0px 0px #802100;
 }
 #credits {
   background: #192926;
@@ -394,8 +405,8 @@ a {
   font-size: 0.875em;
 }
 #credits a {
-  color: #11a284;
-  border-bottom: 2px dotted #11a284;
+  color: #b93203;
+  border-bottom: 2px dotted #b93203;
 }
 #mc_embed_signup {
   max-width: 40em;
@@ -425,7 +436,7 @@ a {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  color: #166555;
+  color: #802100;
   width: 8em;
   font-weight: 300;
   -webkit-box-shadow: 0px 0.35em 0px 0px #bbc7c5;
@@ -438,26 +449,26 @@ a {
 #mc_embed_signup input:active,
 #mc_embed_signup input:focus {
   outline: none;
-  -webkit-box-shadow: 0px 0.35em 0px 0px #14b694;
-  -moz-box-shadow: 0px 0.35em 0px 0px #14b694;
-  box-shadow: 0px 0.35em 0px 0px #14b694;
+  -webkit-box-shadow: 0px 0.35em 0px 0px #cf3904;
+  -moz-box-shadow: 0px 0.35em 0px 0px #cf3904;
+  box-shadow: 0px 0.35em 0px 0px #cf3904;
 }
 #mc_embed_signup #mc-embedded-subscribe {
   border: 0;
-  background: #14b694;
+  background: #cf3904;
   color: #fff;
-  -webkit-box-shadow: 0px 0.35em 0px 0px #11a284;
-  -moz-box-shadow: 0px 0.35em 0px 0px #11a284;
-  box-shadow: 0px 0.35em 0px 0px #11a284;
+  -webkit-box-shadow: 0px 0.35em 0px 0px #b93203;
+  -moz-box-shadow: 0px 0.35em 0px 0px #b93203;
+  box-shadow: 0px 0.35em 0px 0px #b93203;
   cursor: pointer;
 }
 #mc_embed_signup #mc-embedded-subscribe:hover {
-  -webkit-box-shadow: 0px 0.35em 0px 0px #166555;
-  -moz-box-shadow: 0px 0.35em 0px 0px #166555;
-  box-shadow: 0px 0.35em 0px 0px #166555;
+  -webkit-box-shadow: 0px 0.35em 0px 0px #802100;
+  -moz-box-shadow: 0px 0.35em 0px 0px #802100;
+  box-shadow: 0px 0.35em 0px 0px #802100;
 }
 #mc_embed_signup .strap {
-  color: #166555;
+  color: #802100;
 }
 #mc_embed_signup .mc-field-group {
   float: left;
@@ -465,7 +476,7 @@ a {
 }
 #mc_embed_signup .mc-field-group p {
   display: none;
-  color: #166555;
+  color: #802100;
   font-size: 0.75em;
   text-transform: uppercase;
   letter-spacing: 1px;
