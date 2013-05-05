@@ -7,7 +7,10 @@
     font-size: 0.875em;
   }
   a {
-    color: @primary-tint;
-    border-bottom: 2px dotted @primary-tint;
+    color: @rule;
+    border-bottom: 2px dotted @text;
+    &:hover {
+      border-bottom: 2px dotted @primary;
+    }
   }
 }

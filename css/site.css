@@ -405,8 +405,11 @@ a {
   font-size: 0.875em;
 }
 #credits a {
-  color: #b93203;
-  border-bottom: 2px dotted #b93203;
+  color: #bbc7c5;
+  border-bottom: 2px dotted #616e6b;
+}
+#credits a:hover {
+  border-bottom: 2px dotted #cf3904;
 }
 #mc_embed_signup {
   max-width: 40em;
