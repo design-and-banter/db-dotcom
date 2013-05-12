@@ -314,7 +314,7 @@ a {
   font-weight: 200;
   margin-bottom: 2em;
   color: #616e6b;
-  line-height: 1.4;
+  line-height: 1.6;
   max-width: 36em;
   margin: 0 auto 1.5em auto;
 }
@@ -356,6 +356,9 @@ a {
 }
 .event .speakers:after {
   clear: both;
+}
+.event .speakers h1 {
+  font-size: 2em;
 }
 .event .speakers > .strap {
   margin-bottom: 2em;
