@@ -408,16 +408,14 @@ a {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  border: 2px solid #f5f5f5;
+  border: 6px solid #f5f5f5;
   margin: 0.25em auto;
   position: relative;
   background: #ffffff;
 }
 .speaker .head img {
   display: block;
-  position: absolute;
-  top: 0px;
-  right: 0px;
+  width: 100%;
 }
 .speaker .bio {
   border-bottom: 1px solid #f5f5f5;
