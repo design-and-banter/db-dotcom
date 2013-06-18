@@ -1,16 +1,16 @@
 #next-event {
-  background: @non;
+  background: #2C2C2C;
   padding: 4em 0 0 0;
 }
 
 .event {
   background: #fff;
-  margin: -8em auto 0 auto;
+  margin: -9em auto 0 auto;
   max-width: 60em;
   .border-radius(3px);
   padding: 4em 0 0 0;
-  border-top: 5px dotted #ffffff;
-  border-bottom: 5px dotted #ffffff;
+  border-top: 3px dotted #ffffff;
+  border-bottom: 3px dotted #ffffff;
 
   h1 {
     text-align: center;
@@ -53,20 +53,23 @@
     }
 
   .descr{
-
+    padding: 2em 11em 4em 11em;
+    p {
+      font-size: 1.125em;
+    }
   }
   .tickets {
-    padding: 2em 8em;
+    padding: 0em 8em;
+
   }
   .speakers{
-    border-top: 5px dotted #fff;
-    border-bottom: 5px dotted #fff;
-    background: @headline;
+    border-top: 3px dotted #fff;
+    border-bottom: 3px dotted #fff;
+    background: #dbdbdb;
     padding: 2em 5.75em 4em 5.75em;
     .clearfix;
     h1 {
       font-size: 2em;
-      color: @non;
     }
 
     >.strap {
@@ -90,6 +93,10 @@
     padding: 4em 0 0 0;
     h1 {
       font-size: 2em;
+    }
+    p {
+      font-size: 1.125em;
+      padding: 0 8em;
     }
   }
   .map {

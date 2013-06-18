@@ -12,8 +12,8 @@
 
   }
   .head {
-    width: 8em;
-    height: 8em;
+    width: 9em;
+    height: 9em;
     overflow: hidden;
     .border-radius(100px);
     border: 6px solid @non;
@@ -27,31 +27,30 @@
   }
   .bio {
     border-bottom: 1px solid @non;
-    padding: 0em 1.5em;
-    height: 9.5em;
+    padding: 0em 1em;
+    height: 10.5em;
     h1 {
       font-size: 1.125em;
       font-weight: 600;
       line-height: 1;
       color: @headline;
     }
+
+   p {
+    font-size: 0.875em;
+    line-height: 1.3;
+   }
   }
-  .abstract {
-    padding: 1em;
-    height: 4.25em;
-    p {
-      font-style: italic;
-      &:before {
-        content: "\201C";
-      }
-      &:after {
-        content: "\201D";
-      }
-    }
-  }
+  
   .interact {
-    padding: 1em 1em 1.25em 1em;
-    background: @non;
+    padding: 1.125em 1em 1.25em 1em;
+    background: @primary;
+    border-top: 0.25em dotted @primary;
+    a {
+      background: #ffffff;
+      color: @primary-tint;
+      font-weight: 600;
+    }
   }
 
 }
