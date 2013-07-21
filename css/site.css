@@ -427,7 +427,11 @@ textarea#Field1 {
   text-align: center;
 }
 .event .descr {
-  padding: 2em 11em 4em 11em;
+  padding: 2em 11em 2em 11em;
+}
+.event .descr img {
+  display: block;
+  margin: 0 auto;
 }
 .event .descr p {
   font-size: 1.125em;
@@ -467,6 +471,7 @@ textarea#Field1 {
 }
 .event .venue {
   padding: 4em 0 0 0;
+  border-top: 1px dotted #bbc7c5;
 }
 .event .venue .btn {
   width: 250px;
