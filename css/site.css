@@ -170,7 +170,7 @@ body {
   font-family: "jaf-facitweb", sans-serif;
 }
 #nomination-form form .req {
-  color: #a5c20f;
+  color: #a7d528;
 }
 #nomination-form form li {
   margin-bottom: 1em;
@@ -215,7 +215,7 @@ body {
   margin: 0 auto;
 }
 a {
-  color: #a5c20f;
+  color: #a7d528;
 }
 .strap {
   display: block;
@@ -227,7 +227,7 @@ a {
   letter-spacing: 1px;
 }
 .btn {
-  background: #a5c20f;
+  background: #a7d528;
   display: block;
   color: #f5f5f5;
   -webkit-border-radius: 3px;
@@ -240,14 +240,14 @@ a {
   padding: 1em 0;
   font-size: 0.75em;
   font-weight: 400;
-  -webkit-box-shadow: 0px 0.35em 0px 0px #6e8300;
-  -moz-box-shadow: 0px 0.35em 0px 0px #6e8300;
-  box-shadow: 0px 0.35em 0px 0px #6e8300;
+  -webkit-box-shadow: 0px 0.35em 0px 0px #648019;
+  -moz-box-shadow: 0px 0.35em 0px 0px #648019;
+  box-shadow: 0px 0.35em 0px 0px #648019;
 }
 .btn:hover {
-  -webkit-box-shadow: 0px 0.35em 0px 0px #4d5810;
-  -moz-box-shadow: 0px 0.35em 0px 0px #4d5810;
-  box-shadow: 0px 0.35em 0px 0px #4d5810;
+  -webkit-box-shadow: 0px 0.35em 0px 0px #415803;
+  -moz-box-shadow: 0px 0.35em 0px 0px #415803;
+  box-shadow: 0px 0.35em 0px 0px #415803;
 }
 input.field,
 textarea {
@@ -408,7 +408,7 @@ textarea#Field1 {
   margin: 0 auto 1.5em auto;
 }
 .event h2 a {
-  border-bottom: 2px dotted #a5c20f;
+  border-bottom: 2px dotted #a7d528;
   font-weight: 400;
 }
 .event h2:after {
@@ -430,6 +430,9 @@ textarea#Field1 {
 }
 .event .descr {
   padding: 2em 11em 2em 11em;
+}
+.event .descr#sponsors {
+  border-bottom: 1px dotted #bbc7c5;
 }
 .event .descr img {
   display: block;
@@ -542,12 +545,12 @@ textarea#Field1 {
 }
 .speaker .interact {
   padding: 1.125em 1em 1.25em 1em;
-  background: #a5c20f;
-  border-top: 0.25em dotted #a5c20f;
+  background: #a7d528;
+  border-top: 0.25em dotted #a7d528;
 }
 .speaker .interact a {
   background: #ffffff;
-  color: #6e8300;
+  color: #648019;
   font-weight: 600;
 }
 .logicon {
@@ -575,28 +578,32 @@ textarea#Field1 {
   margin: 0 auto 0.5em auto;
 }
 #opening {
-  background: #a5c20f;
-  border-bottom: solid 0.5em #6e8300;
+  background: #a7d528;
+  border-bottom: solid 0.5em #648019;
   padding: 4em 0 7em 0;
   position: relative;
 }
 #opening h2 {
   font-size: 1.25em;
-  color: #4d5810;
+  color: #648019;
   max-width: 32em;
   margin: 0 auto;
   margin-bottom: 1em;
   line-height: 1.5;
   text-align: center;
 }
+#opening h2 span {
+  color: #415803;
+  border-bottom: 1px dotted #415803;
+}
 #opening a {
   border: 0;
   background: #ffffff;
-  color: #6e8300;
+  color: #648019;
   font-weight: 600;
-  -webkit-box-shadow: 0px 0.35em 0px 0px #6e8300;
-  -moz-box-shadow: 0px 0.35em 0px 0px #6e8300;
-  box-shadow: 0px 0.35em 0px 0px #6e8300;
+  -webkit-box-shadow: 0px 0.35em 0px 0px #648019;
+  -moz-box-shadow: 0px 0.35em 0px 0px #648019;
+  box-shadow: 0px 0.35em 0px 0px #648019;
   cursor: pointer;
   width: 20em;
   margin: 2em  auto 0 auto;
@@ -604,9 +611,9 @@ textarea#Field1 {
   letter-spacing: normal;
 }
 #opening a:hover {
-  -webkit-box-shadow: 0px 0.35em 0px 0px #4d5810;
-  -moz-box-shadow: 0px 0.35em 0px 0px #4d5810;
-  box-shadow: 0px 0.35em 0px 0px #4d5810;
+  -webkit-box-shadow: 0px 0.35em 0px 0px #415803;
+  -moz-box-shadow: 0px 0.35em 0px 0px #415803;
+  box-shadow: 0px 0.35em 0px 0px #415803;
 }
 #opening .twitter-follow-button {
   position: absolute;
@@ -625,11 +632,11 @@ textarea#Field1 {
   font-size: 0.875em;
 }
 #credits a {
-  color: #4d5810;
-  border-bottom: 2px dotted #4d5810;
+  color: #415803;
+  border-bottom: 2px dotted #415803;
 }
 #credits a:hover {
-  border-bottom: 2px dotted #a5c20f;
+  border-bottom: 2px dotted #a7d528;
 }
 #mc_embed_signup {
   max-width: 40em;
@@ -659,7 +666,7 @@ textarea#Field1 {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  color: #4d5810;
+  color: #415803;
   width: 8em;
   font-weight: 300;
   -webkit-box-shadow: 0px 0.35em 0px 0px #bbc7c5;
@@ -672,23 +679,23 @@ textarea#Field1 {
 #mc_embed_signup input:active,
 #mc_embed_signup input:focus {
   outline: none;
-  -webkit-box-shadow: 0px 0.35em 0px 0px #a5c20f;
-  -moz-box-shadow: 0px 0.35em 0px 0px #a5c20f;
-  box-shadow: 0px 0.35em 0px 0px #a5c20f;
+  -webkit-box-shadow: 0px 0.35em 0px 0px #a7d528;
+  -moz-box-shadow: 0px 0.35em 0px 0px #a7d528;
+  box-shadow: 0px 0.35em 0px 0px #a7d528;
 }
 #mc_embed_signup #mc-embedded-subscribe {
   border: 0;
-  background: #a5c20f;
+  background: #a7d528;
   color: #fff;
-  -webkit-box-shadow: 0px 0.35em 0px 0px #6e8300;
-  -moz-box-shadow: 0px 0.35em 0px 0px #6e8300;
-  box-shadow: 0px 0.35em 0px 0px #6e8300;
+  -webkit-box-shadow: 0px 0.35em 0px 0px #648019;
+  -moz-box-shadow: 0px 0.35em 0px 0px #648019;
+  box-shadow: 0px 0.35em 0px 0px #648019;
   cursor: pointer;
 }
 #mc_embed_signup #mc-embedded-subscribe:hover {
-  -webkit-box-shadow: 0px 0.35em 0px 0px #4d5810;
-  -moz-box-shadow: 0px 0.35em 0px 0px #4d5810;
-  box-shadow: 0px 0.35em 0px 0px #4d5810;
+  -webkit-box-shadow: 0px 0.35em 0px 0px #415803;
+  -moz-box-shadow: 0px 0.35em 0px 0px #415803;
+  box-shadow: 0px 0.35em 0px 0px #415803;
 }
 #mc_embed_signup .strap {
   color: #666666;
@@ -699,7 +706,7 @@ textarea#Field1 {
 }
 #mc_embed_signup .mc-field-group p {
   display: none;
-  color: #4d5810;
+  color: #415803;
   font-size: 0.75em;
   text-transform: uppercase;
   letter-spacing: 1px;

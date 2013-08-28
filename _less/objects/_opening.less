@@ -6,13 +6,16 @@
 
   h2 {
     font-size: 1.25em;
-    color: @primary-dark;
+    color: @primary-tint;
     max-width: 32em;
     margin: 0 auto;
     margin-bottom: 1em;
     line-height: 1.5;
     text-align: center;
-
+    span {
+      color: @primary-dark;
+      border-bottom: 1px dotted @primary-dark
+    }
   }
   a {
     border: 0;
