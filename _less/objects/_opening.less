@@ -1,37 +1,48 @@
 #opening {
-  background: @primary;
-  border-bottom: solid 0.5em @primary-tint;
-  padding: 4em 0 7em 0;
+  background: #222;
+  padding: 2em 0 7em 0;
   position: relative;
 
   h2 {
     font-size: 1.25em;
-    color: @primary-tint;
+    color: #aaa;
     max-width: 32em;
     margin: 0 auto;
     margin-bottom: 1em;
     line-height: 1.5;
     text-align: center;
+    font-weight: 200;
     span {
       color: @primary-dark;
       border-bottom: 1px dotted @primary-dark
     }
   }
+
+  h3 {
+    color: #aaa;
+    text-align: center;
+    
+    font-size: 1.5em;
+    font-weight: 200;
+    em {
+      font-weight: 700;
+      color: #fff;
+    }
+  }
   a {
     border: 0;
-    background: #ffffff;
-    color: @primary-tint;
-    font-weight: 600;
-    .box-shadow(0px 0.35em 0px 0px @primary-tint);
+    background: @primary;
+    color: #fff;
+    font-weight: 200;
     cursor: pointer;
-    width: 20em;
+    width: 16em;
     margin: 2em  auto 0 auto;
     font-size: 1em;
     letter-spacing: normal;
-    &:hover {
-        .box-shadow(0px 0.35em 0px 0px @primary-dark)
-    }
 
+    &:hover {
+      background: lighten(@primary, 2%)
+    }
   }
 
   .twitter-follow-button{

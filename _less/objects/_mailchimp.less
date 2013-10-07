@@ -20,13 +20,11 @@
     color: @primary-dark;
     width: 8em;
     font-weight: 300;
-    .box-shadow(0px 0.35em 0px 0px @rule);
     &::-webkit-input-placeholder {
       color: @rule;
     };
     &:active, &:focus {
       outline: none;
-      .box-shadow(0px 0.35em 0px 0px @primary)
     };
   }
 
@@ -34,10 +32,8 @@
     border: 0;
     background: @primary;
     color: #fff;
-    .box-shadow(0px 0.35em 0px 0px @primary-tint);
     cursor: pointer;
     &:hover{
-      .box-shadow(0px 0.35em 0px 0px @primary-dark);
     };
   
   }
