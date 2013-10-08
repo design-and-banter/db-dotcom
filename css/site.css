@@ -226,6 +226,9 @@ a {
   margin-bottom: 1em;
   letter-spacing: 1px;
 }
+.event .descr p.sponsor {
+  font-size: 0.875em;
+}
 .btn {
   background: #2e65f0;
   display: block;
@@ -435,7 +438,6 @@ textarea#Field1 {
   padding: 0em 8em;
 }
 .event .speakers {
-  border-top: 1px dotted #ccc;
   border-bottom: 1px dotted #ccc;
   margin: 2em 0;
   background: #fff;
