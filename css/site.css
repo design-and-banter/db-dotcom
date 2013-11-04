@@ -170,7 +170,7 @@ body {
   font-family: "jaf-facitweb", sans-serif;
 }
 #nomination-form form .req {
-  color: #2e65f0;
+  color: #e96b07;
 }
 #nomination-form form li {
   margin-bottom: 1em;
@@ -215,7 +215,7 @@ body {
   margin: 0 auto;
 }
 a {
-  color: #2e65f0;
+  color: #e96b07;
 }
 .strap {
   display: block;
@@ -230,7 +230,7 @@ a {
   font-size: 0.875em;
 }
 .btn {
-  background: #2e65f0;
+  background: #e96b07;
   display: block;
   color: #f5f5f5;
   -webkit-border-radius: 3px;
@@ -401,7 +401,7 @@ textarea#Field1 {
   margin: 0 auto 1.5em auto;
 }
 .event h2 a {
-  border-bottom: 2px dotted #2e65f0;
+  border-bottom: 2px dotted #e96b07;
   font-weight: 400;
 }
 .event h2:after {
@@ -438,6 +438,7 @@ textarea#Field1 {
   padding: 0em 8em;
 }
 .event .speakers {
+  border-top: 1px dotted #bbc7c5;
   border-bottom: 1px dotted #ccc;
   margin: 2em 0;
   background: #fff;
@@ -542,7 +543,7 @@ textarea#Field1 {
   border-top: 1px solid #ccc;
 }
 .speaker .interact a {
-  background: #2e65f0;
+  background: #e96b07;
   color: #fff;
   font-weight: 200;
   font-size: 0.875em;
@@ -572,13 +573,13 @@ textarea#Field1 {
   margin: 0 auto 1em auto;
 }
 #opening {
-  background: #222;
+  background: #ffa800;
   padding: 2em 0 7em 0;
   position: relative;
 }
 #opening h2 {
   font-size: 1.25em;
-  color: #aaa;
+  color: #B44405;
   max-width: 32em;
   margin: 0 auto;
   margin-bottom: 1em;
@@ -591,7 +592,7 @@ textarea#Field1 {
   border-bottom: 1px dotted #415803;
 }
 #opening h3 {
-  color: #aaa;
+  color: #B44405;
   text-align: center;
   font-size: 1.5em;
   font-weight: 200;
@@ -602,7 +603,7 @@ textarea#Field1 {
 }
 #opening a {
   border: 0;
-  background: #2e65f0;
+  background: #e96b07;
   color: #fff;
   font-weight: 200;
   cursor: pointer;
@@ -612,7 +613,7 @@ textarea#Field1 {
   letter-spacing: normal;
 }
 #opening a:hover {
-  background: #386cf1;
+  background: #f37007;
 }
 #opening .twitter-follow-button {
   position: absolute;
@@ -621,20 +622,20 @@ textarea#Field1 {
   width: 210px;
 }
 #credits {
-  background: #1c1c1c;
+  background: #ffa800;
   padding: 4em 0;
-  border-top: 0.5em solid #333333;
 }
 #credits p {
-  color: #666;
+  color: #e96b07;
   text-align: center;
   font-size: 0.875em;
+  font-weight: 400;
 }
 #credits a {
-  color: #2e65f0;
+  color: #B44405;
 }
 #credits a:hover {
-  border-bottom: 2px dotted #2e65f0;
+  border-bottom: 2px dotted #e96b07;
 }
 #mc_embed_signup {
   max-width: 40em;
@@ -677,7 +678,7 @@ textarea#Field1 {
 }
 #mc_embed_signup #mc-embedded-subscribe {
   border: 0;
-  background: #2e65f0;
+  background: #e96b07;
   color: #fff;
   cursor: pointer;
 }
