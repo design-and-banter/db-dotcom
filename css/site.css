@@ -425,7 +425,8 @@ textarea#Field1 {
   padding: 2em 11em 2em 11em;
 }
 .event .descr#sponsors {
-  border-bottom: 1px dotted #bbc7c5;
+  border-top: 1px dotted #bbc7c5;
+  padding-top: 4em;
 }
 .event .descr img {
   display: block;
