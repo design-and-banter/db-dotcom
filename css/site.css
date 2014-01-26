@@ -177,7 +177,7 @@ body {
   font-family: "jaf-facitweb", sans-serif;
 }
 #nomination-form form .req {
-  color: #19a7c3;
+  color: #32a2f2;
 }
 #nomination-form form li {
   margin-bottom: 1em;
@@ -222,7 +222,7 @@ body {
   margin: 0 auto;
 }
 a {
-  color: #19a7c3;
+  color: #32a2f2;
 }
 .strap {
   display: block;
@@ -374,7 +374,6 @@ textarea#Field1 {
 }
 #next-event {
   background: none;
-  padding: 4em 0 0 0;
   position: relative;
 }
 .event {
@@ -384,7 +383,7 @@ textarea#Field1 {
   -moz-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
   border: 1px solid #ffffff;
-  margin: -9em auto 0 auto;
+  margin: 0 auto;
   max-width: 56em;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -413,13 +412,13 @@ textarea#Field1 {
   margin: 0 auto 1.5em auto;
 }
 .event h2 a {
-  border-bottom: 2px dotted #19a7c3;
+  border-bottom: 2px dotted #32a2f2;
   font-weight: 400;
 }
 .event h2:after {
   display: block;
   content: "";
-  background: #19A7C3;
+  background: #32a2f2;
   height: 0.125em;
   width: 5em;
   margin: 2em auto 0 auto;
@@ -440,7 +439,8 @@ textarea#Field1 {
   border-top: 1px dotted #bbc7c5;
   padding-top: 4em;
 }
-.event .descr img {
+.event .descr img,
+.event .descr a {
   display: block;
   margin: 0 auto;
 }
@@ -450,8 +450,17 @@ textarea#Field1 {
 .event .tickets {
   padding: 1em 10em;
 }
+.event .sponsors {
+  padding: 4em 0;
+  border-top: 1px dotted #bbc7c5;
+}
+.event .sponsors img {
+  display: block;
+  margin: 0 auto;
+}
 .event .speakers {
-  padding: 2em 0em 2em 0em;
+  padding: 4em 0em 4em 0em;
+  border-top: 1px dotted #bbc7c5;
   zoom: 1;
 }
 .event .speakers:before,
@@ -554,7 +563,7 @@ textarea#Field1 {
   border-top: 1px solid #ccc;
 }
 .speaker .interact a {
-  background: #19a7c3;
+  background: #32a2f2;
   color: #fff;
   font-weight: 200;
   font-size: 0.875em;
@@ -563,10 +572,10 @@ textarea#Field1 {
   display: block;
   width: 2.5em;
   height: 4em;
-  margin: 2em auto 0 auto;
+  margin: 0 auto;
 }
 .logicon svg {
-  width: 2.5em;
+  width: 2.75em;
 }
 .no-svg .logicon {
   background: url(/images/logo.png) top center no-repeat;
@@ -586,7 +595,7 @@ textarea#Field1 {
 }
 #opening {
   background: none;
-  padding: 2em 0 7em 0;
+  padding: 4em 0;
   position: relative;
 }
 #opening h2 {
@@ -600,8 +609,8 @@ textarea#Field1 {
   font-weight: 200;
 }
 #opening h2 span {
-  color: #415803;
-  border-bottom: 1px dotted #415803;
+  color: #32a2f2;
+  border-bottom: 1px dotted #32a2f2;
 }
 #opening h3 {
   color: #CC3232;
@@ -616,19 +625,37 @@ textarea#Field1 {
 #opening a {
   border: 0;
   background: #ffffff;
-  color: #19a7c3;
+  color: #32a2f2;
   font-weight: 500;
   cursor: pointer;
   width: 18em;
   margin: 2em  auto 0 auto;
   font-size: 1em;
   letter-spacing: normal;
+  -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+  opacity: 0.95;
+}
+#opening a:hover {
+  opacity: 1;
 }
 #opening .twitter-follow-button {
   position: absolute;
   top: 1em;
   right: 1em;
   width: 210px;
+}
+.flash {
+  text-align: center;
+  padding: 1em;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+}
+.flash a {
+  font-weight: 900;
+  color: #fff;
 }
 #credits {
   background: none;
@@ -675,7 +702,7 @@ textarea#Field1 {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  color: #415803;
+  color: #32a2f2;
   width: 7.5em;
   font-weight: 300;
 }
@@ -688,7 +715,7 @@ textarea#Field1 {
 }
 #mc_embed_signup #mc-embedded-subscribe {
   border: 0;
-  background: #19a7c3;
+  background: #32a2f2;
   color: #fff;
   cursor: pointer;
   padding: 0.55em  2em;
@@ -703,7 +730,7 @@ textarea#Field1 {
 }
 #mc_embed_signup .mc-field-group p {
   display: none;
-  color: #415803;
+  color: #32a2f2;
   font-size: 0.75em;
   text-transform: uppercase;
   letter-spacing: 1px;

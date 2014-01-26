@@ -1,7 +1,8 @@
 #opening {
   background: none;
-  padding: 2em 0 7em 0;
+  padding: 4em 0;
   position: relative;
+
 
   h2 {
     font-size: 1.25em;
@@ -32,13 +33,18 @@
   a {
     border: 0;
     background: #ffffff;
-    color: #19a7c3;
+    color: #32a2f2;
     font-weight: 500;
     cursor: pointer;
     width: 18em;
     margin: 2em  auto 0 auto;
     font-size: 1em;
     letter-spacing: normal;
+    .box-shadow(0px 0px 6px rgba(0,0,0,0.1));
+    opacity: 0.95;
+    &:hover {
+      opacity: 1;
+    }
   }
 
   .twitter-follow-button{
@@ -47,4 +53,17 @@
     right: 1em;
     width: 210px;
   }
+}
+
+
+.flash {
+  text-align: center;
+  padding: 1em;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+border-bottom: 1px solid rgba(255,255,255,0.35);
+  a {
+    font-weight: 900;
+    color: #fff;
+  } 
 }
