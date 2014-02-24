@@ -142,14 +142,30 @@ a {
 }
 body {
   font-family: "jaf-facitweb", sans-serif;
-  background: #00fff6;
-  background: -moz-linear-gradient(top, #00deff 0%, #962cda 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00fff6), color-stop(100%, #962cda));
-  background: -webkit-linear-gradient(top, #00deff 0%, #962cda 100%);
-  background: -o-linear-gradient(top, #00deff 0%, #962cda 100%);
-  background: -ms-linear-gradient(top, #00deff 0%, #962cda 100%);
-  background: linear-gradient(to bottom, #00deff 0%, #962cda 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00fff6', endColorstr='#962cda', GradientType=0);
+  background: #1aa988;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(top, #1aa988 0%, #0774bc 50%, #0c3257 100%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1aa988), color-stop(50%, #0774bc), color-stop(100%, #0c3257));
+  /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top, #1aa988 0%, #0774bc 50%, #0c3257 100%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top, #1aa988 0%, #0774bc 50%, #0c3257 100%);
+  /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(top, #1aa988 0%, #0774bc 50%, #0c3257 100%);
+  /* IE10+ */
+
+  background: linear-gradient(to bottom, #1aa988 0%, #0774bc 50%, #0c3257 100%);
+  /* W3C */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1aa988', endColorstr='#0c3257', GradientType=0);
+  /* IE6-9 */
+
 }
 #nomination-form {
   background: #fff;
@@ -177,7 +193,7 @@ body {
   font-family: "jaf-facitweb", sans-serif;
 }
 #nomination-form form .req {
-  color: #32a2f2;
+  color: #1aa988;
 }
 #nomination-form form li {
   margin-bottom: 1em;
@@ -222,7 +238,7 @@ body {
   margin: 0 auto;
 }
 a {
-  color: #32a2f2;
+  color: #1aa988;
 }
 .strap {
   display: block;
@@ -412,7 +428,7 @@ textarea#Field1 {
   margin: 0 auto 1.5em auto;
 }
 .event h2 a {
-  border-bottom: 2px dotted #32a2f2;
+  border-bottom: 2px dotted #1aa988;
   font-weight: 400;
 }
 .event h2:after {
@@ -563,7 +579,7 @@ textarea#Field1 {
   border-top: 1px solid #ccc;
 }
 .speaker .interact a {
-  background: #32a2f2;
+  background: #1aa988;
   color: #fff;
   font-weight: 200;
   font-size: 0.875em;
@@ -715,7 +731,7 @@ textarea#Field1 {
 }
 #mc_embed_signup #mc-embedded-subscribe {
   border: 0;
-  background: #32a2f2;
+  background: #1aa988;
   color: #fff;
   cursor: pointer;
   padding: 0.55em  2em;
@@ -730,7 +746,6 @@ textarea#Field1 {
 }
 #mc_embed_signup .mc-field-group p {
   display: none;
-  color: #32a2f2;
   font-size: 0.75em;
   text-transform: uppercase;
   letter-spacing: 1px;
