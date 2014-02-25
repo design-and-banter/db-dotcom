@@ -143,29 +143,12 @@ a {
 body {
   font-family: "jaf-facitweb", sans-serif;
   background: #1aa988;
-  /* Old browsers */
-
-  background: -moz-linear-gradient(top, #1aa988 0%, #0774bc 50%, #0c3257 100%);
-  /* FF3.6+ */
-
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1aa988), color-stop(50%, #0774bc), color-stop(100%, #0c3257));
-  /* Chrome,Safari4+ */
-
-  background: -webkit-linear-gradient(top, #1aa988 0%, #0774bc 50%, #0c3257 100%);
-  /* Chrome10+,Safari5.1+ */
-
-  background: -o-linear-gradient(top, #1aa988 0%, #0774bc 50%, #0c3257 100%);
-  /* Opera 11.10+ */
-
-  background: -ms-linear-gradient(top, #1aa988 0%, #0774bc 50%, #0c3257 100%);
-  /* IE10+ */
-
-  background: linear-gradient(to bottom, #1aa988 0%, #0774bc 50%, #0c3257 100%);
-  /* W3C */
-
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1aa988', endColorstr='#0c3257', GradientType=0);
-  /* IE6-9 */
-
+  background: -moz-linear-gradient(top, #1aa988 0%, #0774bc 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1aa988), color-stop(100%, #0774bc));
+  background: -webkit-linear-gradient(top, #1aa988 0%, #0774bc 100%);
+  background: -o-linear-gradient(top, #1aa988 0%, #0774bc 100%);
+  background: -ms-linear-gradient(top, #1aa988 0%, #0774bc 100%);
+  background: linear-gradient(to bottom, #1aa988 0%, #0774bc 100%);
 }
 #nomination-form {
   background: #fff;
@@ -407,7 +390,7 @@ textarea#Field1 {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  padding: 4em 0 0 0;
+  padding: 3em 0 0 0;
 }
 .event h1 {
   text-align: center;
@@ -434,7 +417,7 @@ textarea#Field1 {
 .event h2:after {
   display: block;
   content: "";
-  background: #32a2f2;
+  background: #1aa988;
   height: 0.125em;
   width: 5em;
   margin: 2em auto 0 auto;
@@ -464,7 +447,7 @@ textarea#Field1 {
   font-size: 1.125em;
 }
 .event .tickets {
-  padding: 1em 10em;
+  padding: 1em 10em 0 10em;
 }
 .event .sponsors {
   padding: 4em 0;
@@ -475,7 +458,7 @@ textarea#Field1 {
   margin: 0 auto;
 }
 .event .speakers {
-  padding: 4em 0em 4em 0em;
+  padding: 3em 0em 3em 0em;
   border-top: 1px dotted #bbc7c5;
   zoom: 1;
 }
@@ -504,7 +487,7 @@ textarea#Field1 {
   width: 16em;
 }
 .event .venue {
-  padding: 4em 0 0 0;
+  padding: 3em 0 0 0;
   border-top: 1px dotted #bbc7c5;
 }
 .event .venue .btn {
@@ -641,13 +624,14 @@ textarea#Field1 {
 #opening a {
   border: 0;
   background: #ffffff;
-  color: #32a2f2;
-  font-weight: 500;
+  color: #0774bc;
+  font-weight: 600;
   cursor: pointer;
   width: 18em;
   margin: 2em  auto 0 auto;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   font-size: 1em;
-  letter-spacing: normal;
   -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
@@ -693,7 +677,7 @@ textarea#Field1 {
 #mc_embed_signup {
   max-width: 40em;
   margin: 0 auto;
-  padding: 4em 0 3em 0;
+  padding: 0;
 }
 #mc_embed_signup form {
   zoom: 1;
@@ -731,7 +715,7 @@ textarea#Field1 {
 }
 #mc_embed_signup #mc-embedded-subscribe {
   border: 0;
-  background: #1aa988;
+  background: #0774bc;
   color: #fff;
   cursor: pointer;
   padding: 0.55em  2em;
@@ -753,5 +737,17 @@ textarea#Field1 {
 }
 #manifesto {
   background: none;
-  border-top: 1px dotted #ccc;
+  border-bottom: 1px dotted #ccc;
+  margin-bottom: 3em;
+  padding: 0 0 3em 0;
+}
+#manifesto h3 {
+  font-size: 1.25em;
+  color: #888888;
+  max-width: 35em;
+  margin: 0 auto;
+  margin-bottom: 2em;
+  line-height: 1.65;
+  text-align: center;
+  font-weight: 200;
 }
