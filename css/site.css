@@ -142,13 +142,13 @@ a {
 }
 body {
   font-family: "jaf-facitweb", sans-serif;
-  background: #1aa988;
-  background: -moz-linear-gradient(top, #1aa988 0%, #0774bc 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1aa988), color-stop(100%, #0774bc));
-  background: -webkit-linear-gradient(top, #1aa988 0%, #0774bc 100%);
-  background: -o-linear-gradient(top, #1aa988 0%, #0774bc 100%);
-  background: -ms-linear-gradient(top, #1aa988 0%, #0774bc 100%);
-  background: linear-gradient(to bottom, #1aa988 0%, #0774bc 100%);
+  background: #ff7474;
+  background: -moz-linear-gradient(top, #ff7474 0%, #d29dff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff7474), color-stop(100%, #d29dff));
+  background: -webkit-linear-gradient(top, #ff7474 0%, #d29dff 100%);
+  background: -o-linear-gradient(top, #ff7474 0%, #d29dff 100%);
+  background: -ms-linear-gradient(top, #ff7474 0%, #d29dff 100%);
+  background: linear-gradient(to bottom, #ff7474 0%, #d29dff 100%);
 }
 #nomination-form {
   background: #fff;
@@ -176,7 +176,7 @@ body {
   font-family: "jaf-facitweb", sans-serif;
 }
 #nomination-form form .req {
-  color: #1aa988;
+  color: #ff7474;
 }
 #nomination-form form li {
   margin-bottom: 1em;
@@ -221,7 +221,7 @@ body {
   margin: 0 auto;
 }
 a {
-  color: #1aa988;
+  color: #ff7474;
 }
 .strap {
   display: block;
@@ -411,13 +411,13 @@ textarea#Field1 {
   margin: 0 auto 1.5em auto;
 }
 .event h2 a {
-  border-bottom: 2px dotted #1aa988;
+  border-bottom: 2px dotted #ff7474;
   font-weight: 400;
 }
 .event h2:after {
   display: block;
   content: "";
-  background: #1aa988;
+  background: #ff7474;
   height: 0.125em;
   width: 5em;
   margin: 2em auto 0 auto;
@@ -562,7 +562,7 @@ textarea#Field1 {
   border-top: 1px solid #ccc;
 }
 .speaker .interact a {
-  background: #1aa988;
+  background: #ff7474;
   color: #fff;
   font-weight: 200;
   font-size: 0.875em;
@@ -594,7 +594,7 @@ textarea#Field1 {
 }
 #opening {
   background: none;
-  padding: 4em 0;
+  padding: 4em 0 0 0;
   position: relative;
 }
 #opening h2 {
@@ -737,8 +737,6 @@ textarea#Field1 {
 }
 #manifesto {
   background: none;
-  border-bottom: 1px dotted #ccc;
-  margin-bottom: 3em;
   padding: 0 0 3em 0;
 }
 #manifesto h3 {
