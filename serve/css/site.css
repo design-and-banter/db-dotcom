@@ -447,7 +447,7 @@ textarea#Field1 {
   font-size: 1.125em;
 }
 .event .tickets {
-  padding: 1em 10em 0 10em;
+  padding: 1em 10em 3em 10em;
 }
 .event .sponsors {
   padding: 4em 0;
@@ -594,7 +594,7 @@ textarea#Field1 {
 }
 #opening {
   background: none;
-  padding: 4em 0 0 0;
+  padding: 4em 0 3em 0;
   position: relative;
 }
 #opening h2 {
@@ -737,7 +737,7 @@ textarea#Field1 {
 }
 #manifesto {
   background: none;
-  padding: 0 0 3em 0;
+  padding: 0 0 2em 0;
 }
 #manifesto h3 {
   font-size: 1.25em;
