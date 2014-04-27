@@ -1,0 +1,17 @@
+#credits {
+  background: none;
+  padding: 4em 0;
+}
+#credits p {
+  color: #fff;
+  text-align: center;
+  font-size: 0.875em;
+  font-weight: 400;
+}
+#credits a {
+  color: #6BABDF;
+  font-weight: 700;
+}
+#credits a:hover {
+  border-bottom: 2px dotted #6BABDF;
+}
