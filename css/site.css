@@ -3608,6 +3608,41 @@ header .date {
   border: 1em solid #ffffff;
   padding: 2em;
 }
+.birthday .tickets {
+  width: 75%;
+  margin: 0 auto;
+  border: 10px solid #ffffff;
+  background: #fff;
+  margin-bottom: 4em;
+}
+.birthday .supporters {
+  max-width: 75%;
+  margin: 0 auto;
+  border-top: 8px solid #fff;
+  padding: 4em 0 4em 0;
+}
+.birthday .supporters h2 {
+  color: #ffffff;
+  font-family: "reklame-script", sans-serif;
+  text-align: center;
+  font-size: 2em;
+}
+.birthday .supporters figure {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1em 0;
+}
+.birthday .supporters figure figcaption {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.75em;
+  font-weight: 100;
+  line-height: 1.4;
+}
+.birthday .supporters figure img {
+  width: 100%;
+  margin: 1em auto;
+}
 .birthday h1 {
   max-width: 75%;
   font-weight: 100;
