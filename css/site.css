@@ -1,3 +1,4 @@
+/* CSS crunched with Crunch - http://crunchapp.net/ */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -143,30 +144,22 @@ a {
 body {
   font-family: "jaf-facitweb", sans-serif;
   background: #ff7474;
-  background: #6fb8f4;
+  background: #7973be;
   /* Old browsers */
-
-  background: -moz-linear-gradient(top, #6fb8f4 0%, #a1f3f2 86%, #f8ffd3 100%);
+  background: -moz-linear-gradient(top, #7973be 0%, #564f9e 50%, #332121 100%);
   /* FF3.6+ */
-
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6fb8f4), color-stop(86%, #a1f3f2), color-stop(100%, #f8ffd3));
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7973be), color-stop(50%, #564f9e), color-stop(100%, #332121));
   /* Chrome,Safari4+ */
-
-  background: -webkit-linear-gradient(top, #6fb8f4 0%, #a1f3f2 86%, #f8ffd3 100%);
+  background: -webkit-linear-gradient(top, #7973be 0%, #564f9e 50%, #332121 100%);
   /* Chrome10+,Safari5.1+ */
-
-  background: -o-linear-gradient(top, #6fb8f4 0%, #a1f3f2 86%, #f8ffd3 100%);
+  background: -o-linear-gradient(top, #7973be 0%, #564f9e 50%, #332121 100%);
   /* Opera 11.10+ */
-
-  background: -ms-linear-gradient(top, #6fb8f4 0%, #a1f3f2 86%, #f8ffd3 100%);
+  background: -ms-linear-gradient(top, #7973be 0%, #564f9e 50%, #332121 100%);
   /* IE10+ */
-
-  background: linear-gradient(to bottom, #6fb8f4 0%, #a1f3f2 86%, #f8ffd3 100%);
+  background: linear-gradient(to bottom, #7973be 0%, #564f9e 50%, #332121 100%);
   /* W3C */
-
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6fb8f4', endColorstr='#f8ffd3', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7973be', endColorstr='#332121', GradientType=0);
   /* IE6-9 */
-
 }
 #nomination-form {
   background: #fff;
@@ -194,7 +187,7 @@ body {
   font-family: "jaf-facitweb", sans-serif;
 }
 #nomination-form form .req {
-  color: #6babdf;
+  color: #564f9e;
 }
 #nomination-form form li {
   margin-bottom: 1em;
@@ -239,7 +232,7 @@ body {
   margin: 0 auto;
 }
 a {
-  color: #6babdf;
+  color: #564f9e;
 }
 .strap {
   display: block;
@@ -256,7 +249,7 @@ a {
 .btn {
   background: #19a7c3;
   display: block;
-  color: #f5f5f5;
+  color: #564f9e;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -429,13 +422,13 @@ textarea#Field1 {
   margin: 0 auto 1.5em auto;
 }
 .event h2 a {
-  border-bottom: 2px dotted #6babdf;
+  border-bottom: 2px dotted #564f9e;
   font-weight: 400;
 }
 .event h2:after {
   display: block;
   content: "";
-  background: #6babdf;
+  background: #564f9e;
   height: 0.125em;
   width: 5em;
   margin: 2em auto 0 auto;
@@ -580,7 +573,7 @@ textarea#Field1 {
   border-top: 1px solid #ccc;
 }
 .speaker .interact a {
-  background: #6babdf;
+  background: #564f9e;
   color: #fff;
   font-weight: 200;
   font-size: 0.875em;
@@ -642,7 +635,7 @@ textarea#Field1 {
 #opening a {
   border: 0;
   background: #ffffff;
-  color: #0774bc;
+  color: #564f9e;
   font-weight: 600;
   cursor: pointer;
   width: 18em;
@@ -680,17 +673,19 @@ textarea#Field1 {
   padding: 4em 0;
 }
 #credits p {
-  color: #6babdf;
+  color: #d4d4d8;
   text-align: center;
   font-size: 0.875em;
   font-weight: 400;
 }
 #credits a {
-  color: #6BABDF;
+  color: #d4d4d8;
   font-weight: 700;
+  border-bottom: 2px dotted #d4d4d8;
 }
 #credits a:hover {
-  border-bottom: 2px dotted #6babdf;
+  color: #564f9e;
+  border-color: #564f9e;
 }
 #mc_embed_signup {
   max-width: 40em;
